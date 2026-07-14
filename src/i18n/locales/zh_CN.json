@@ -1,0 +1,519 @@
+{
+  "editor": {
+    "lang_selection": "语言已设置为中文。",
+    "shortcuts": "操作: [方向键], [空格], [N键], [回车键]"
+  },
+  "work_env": {
+    "title": "请选择工作环境：",
+    "content_1": "纯色背景",
+    "content_2": "玩家出生",
+    "button_1": "选择",
+    "msg_1": "你选择了纯色背景。如果鼠标消失，请使用指令 {45aaf2}/mouse",
+    "msg_2": "你选择了玩家出生模式。如果鼠标消失，请使用指令 {45aaf2}/mouse"
+  },
+  "page": {
+    "title": "跳转到页面",
+    "content": "{FFFFFF}页码应在 {ff7979}1 {FFFFFF}和 {ff7979}%s 之间",
+    "btn1": "下一页",
+    "btn2": "返回",
+    "error": "页码不正确。"
+  },
+  "reindex": {
+    "title": "重新排序索引",
+    "content_1": "{ffffff}这会将你的索引重新排序为 {f1c40f}\"0, 1, 2, 3\" {ffffff}模式",
+    "content_2": "{e74c3c}警告：{ffffff}此操作将删除撤销/重做数据。确认执行？",
+    "btn_1": "确认",
+    "btn_2": "取消",
+    "info": "索引已重新排序。请选择一个文本绘图进行编辑。"
+  },
+  "project": {
+    "title": "项目菜单",
+    "content_1": "新建项目",
+    "content_2": "加载项目",
+    "content_3": "导入文本绘图",
+    "content_4": "导出文本绘图",
+    "content_5": "关闭项目",
+    "btn_1": "选择",
+    "btn_2": "关闭",
+    "error_open": "Close the existing project first.",
+    "error_name_empty": "Project name is empty.",
+    "error_name_long": "Project name too long.",
+    "error_name_invalid": "Invalid characters in name.",
+    "error_name_exists": "A project with that name already exists.",
+    "error_load_failed": "Failed to load project settings.",
+    "error_textdraw_load": "Failed to load textdraw {0}.",
+    "error_no_open": "No project open.",
+    "error_delete_open": "Close the project first.",
+    "info_created": "Project \"{0}\" created.",
+    "info_closed": "Project closed.",
+    "info_deleted": "Project \"{0}\" deleted."
+  },
+  "project_new": {
+    "title": "新建项目",
+    "text": "{ffffff}请输入要创建的项目名称：",
+    "btn_1": "创建",
+    "btn_2": "返回",
+    "error_1": "项目名称为空。",
+    "error_2": "项目名称过长。",
+    "error_3": "项目名称包含非法字符。",
+    "error_4": "已存在同名项目。",
+    "error_5": "请先关闭当前项目。",
+    "info_1": "项目 \"%s\" {FFFFFF}已创建。"
+  },
+  "projects": {
+    "title": "项目列表 [%s / %s]",
+    "header_1": "项目名称",
+    "header_2": "创建日期",
+    "go_page": "跳转到页面",
+    "btn_1": "选择",
+    "btn_2": "返回",
+    "error": "暂无项目。"
+  },
+  "project_action": {
+    "title": "操作选项",
+    "content_1": "加载项目",
+    "content_2": "删除项目",
+    "btn_1": "选择",
+    "btn_2": "返回",
+    "error_1": "该项目已加载。",
+    "error_2": "请先关闭当前项目。",
+    "error_3": "无法加载项目，数据库文件不存在。",
+    "info": "项目 \"%s\" {FFFFFF}已加载。[全局: %s, 玩家: %s, 总计: %s]",
+    "warn_title": "删除项目",
+    "warn_content": "{FFFFFF}确认删除该项目？",
+    "warn_btn1": "确认",
+    "warn_btn2": "取消",
+    "warn_info": "项目 \"%s\" 已删除。",
+    "warn_error": "请先关闭当前项目。"
+  },
+  "import": {
+    "title": "导入",
+    "content_1": "{FFFFFF}请输入要导入的文件名。",
+    "content_2": "{badc58}示例：{FFFFFF}phone.txt",
+    "btn1": "导入",
+    "btn2": "返回",
+    "error_1": "请先创建或加载项目。",
+    "error_2": "未输入文件名。",
+    "error_3": "未找到文件 \"%s\"。",
+    "error_4": "导入中断：达到文本绘图数量上限。",
+    "error_5": "未找到可导入的文本绘图。",
+    "info": "文件 \"%s\" 已导入。[全局: %s, 玩家: %s, 总计: %s]"
+  },
+  "export": {
+    "title": "导出",
+    "content_1": "{FFFFFF}请输入导出的文件名。",
+    "content_2": "不指定文件名将使用 \"%s.txt\"。",
+    "btn1": "导出",
+    "btn2": "返回",
+    "error": "暂无文本绘图可导出。",
+    "error2": "请先创建或加载项目。",
+    "info": "项目 \"%s.txt\" 已导出。[全局: %s, 玩家: %s, 总计: %s]"
+  },
+  "close_project": {
+    "error": "请先打开一个项目。",
+    "info": "项目 %s 已成功关闭。"
+  },
+  "settings": {
+    "title": "设置",
+    "header_1": "#",
+    "header_2": "值",
+    "content_1": "时间",
+    "content_2": "HUD 位置",
+    "content_3": "全局 TD 默认名称",
+    "content_4": "玩家 TD 默认名称",
+    "btn1": "选择",
+    "btn2": "关闭"
+  },
+  "time": {
+    "title": "时间设置",
+    "btn1": "选择",
+    "btn2": "返回",
+    "info": "游戏时间已设置为 %s:00。"
+  },
+  "hud_position": {
+    "content": "上/下：移动 HUD。回车：保存。",
+    "info": "HUD 位置已更新。"
+  },
+  "var_global": {
+    "title": "默认变量名称",
+    "content_1": "{FFFFFF}指定导出时的变量名称。",
+    "content_2": "{FFFFFF}留空则使用默认名称。",
+    "btn1": "修改",
+    "btn2": "返回",
+    "error": "变量名称过长。",
+    "info": "默认变量名称已设置为 %s。"
+  },
+  "new_textdraw": {
+    "title": "新建",
+    "content": "预览模型（物体、载具、皮肤）",
+    "btn1": "创建",
+    "btn2": "关闭",
+    "new_textdraw": "新文本绘图",
+    "content_1": "普通文本绘图",
+    "content_2": "Sprite 精灵图",
+    "content_3": "预览模型"
+  },
+  "list": {
+    "title": "文本绘图列表 [%s / %s]",
+    "header_1": "索引",
+    "header_2": "变量名",
+    "header_3": "内容",
+    "header_4": "类型",
+    "go_page": "跳转到页面",
+    "reorder": "重新排序索引",
+    "btn1": "选择",
+    "btn2": "关闭"
+  },
+  "list_action": {
+    "title": "操作选项",
+    "content_1": "选择文本绘图",
+    "content_2": "选择文本绘图（方向键）",
+    "content_3": "删除文本绘图",
+    "content_4": "克隆文本绘图",
+    "content_5": "克隆并选择",
+    "content_6": "更改索引",
+    "content_7": "修改变量名",
+    "btn1": "选择",
+    "btn2": "返回"
+  },
+  "td_info": {
+    "select": "已选择文本绘图。索引: %s",
+    "delete": "文本绘图已删除。索引: %s",
+    "copy": "文本绘图已复制。索引: %s",
+    "copy2": "文本绘图已复制并选中。索引: %s"
+  },
+  "swap_index": {
+    "title": "更改索引",
+    "content": "{ffffff}请输入目标索引号。{3498db}(0, %s)",
+    "btn1": "更改",
+    "btn2": "关闭",
+    "error": "索引号不正确。",
+    "info": "已交换索引 %s <-> %s。"
+  },
+  "var_name": {
+    "title": "编辑变量名",
+    "content_1": "{ff7979}提示：{FFFFFF}留空可移除变量名。",
+    "content_2": "{ffffff}请输入变量名。",
+    "btn1": "修改",
+    "btn2": "返回",
+    "error": "变量名过长。",
+    "info": "变量名已设置为 %s。",
+    "info2": "变量名已移除。"
+  },
+  "storage": {
+    "title": "仓库",
+    "content_1": "分组管理",
+    "content_2": "恢复已删除的文本绘图",
+    "btn_1": "选择",
+    "btn_2": "关闭"
+  },
+  "copy": {
+    "info": "文本绘图已复制并选中。索引: %s"
+  },
+  "delete": {
+    "info": "文本绘图已删除。索引: %s"
+  },
+  "size": {
+    "title": "手动编辑",
+    "content_1": "{FFFFFF}输入新的值。",
+    "content_2": "{70a1ff}示例：",
+    "content_3": "{ffffff}10 20  或  10.0 20.0",
+    "content_4": "{70a1ff}当前值：",
+    "content_5": "{eccc68}X：{FFFFFF}%s",
+    "content_6": "{eccc68}Y：{FFFFFF}%s",
+    "content_7": "{70a1ff}仅 X 值：",
+    "content_8": "{ffffff}值 0",
+    "content_9": "{70a1ff}仅 Y 值：",
+    "content_10": "{ffffff}0 值",
+    "content_11": "{FFFFFF}输入 {ff7f50}0 0 {FFFFFF}可移除文本尺寸。",
+    "btn_1": "更新",
+    "btn_2": "关闭",
+    "error_1": "输入的值不正确。",
+    "info_1": "值已更新。"
+  },
+  "text": {
+    "title": "文本编辑",
+    "content": "{f1c40f}当前文本：",
+    "content2": "{ffffff}请输入新文本。",
+    "btn1": "修改",
+    "btn2": "关闭",
+    "error": "文本不能为空。",
+    "info": "文本已修改。"
+  },
+  "outline_shadow": {
+    "title": "手动编辑",
+    "content_1": "{f9ca24}当前值：{FFFFFF}%s",
+    "content_2": "{FFFFFF}输入要使用的值。输入 {f9ca24}0 {FFFFFF}可移除。",
+    "btn_1": "设置",
+    "btn_2": "关闭",
+    "error": "输入的值不正确。",
+    "info_1": "值已更新。"
+  },
+  "color": {
+    "title": "颜色选择",
+    "content": "RGBA（方向键控制）",
+    "btn1": "选择",
+    "btn2": "关闭"
+  },
+  "color_hex": {
+    "title": "颜色：十六进制",
+    "content_1": "{FFFFFF}输入十六进制颜色代码。",
+    "content_2": "{badc58}示例：",
+    "content_3": "{FFFFFF}FFBE76",
+    "content_4": "{FFFFFF}#FFBE76",
+    "content_5": "{FFFFFF}0xFFBE76",
+    "content_6": "{FFFFFF}0xFFBE76FF",
+    "btn_1": "修改",
+    "btn_2": "返回",
+    "error": "十六进制代码格式不正确。"
+  },
+  "color_rgb": {
+    "title": "颜色：RGB",
+    "content_1": "{FFFFFF}输入 RGB 颜色代码。",
+    "content_2": "{badc58}示例：",
+    "content_3": "{FFFFFF}66 135 245",
+    "content_4": "{FFFFFF}66, 135, 245",
+    "content_5": "{FFFFFF}rgb(66, 135, 245)",
+    "content_6": "{FFFFFF}rgb(66, 135, 245);",
+    "btn_1": "修改",
+    "btn_2": "返回",
+    "error": "RGB 代码格式不正确。"
+  },
+  "color_rgba": {
+    "title": "颜色：RGBA",
+    "content_1": "{FFFFFF}输入 RGBA 颜色代码。",
+    "content_2": "{badc58}示例：",
+    "content_3": "{FFFFFF}66 135 245 255",
+    "content_4": "{FFFFFF}66, 135, 245, 255",
+    "content_5": "{FFFFFF}rgba(66, 135, 245, 255)",
+    "content_6": "{FFFFFF}rgba(66, 135, 245, 255);",
+    "btn_1": "修改",
+    "btn_2": "返回",
+    "error": "RGBA 代码格式不正确。"
+  },
+  "preview_models": {
+    "model_id": "模型 ID",
+    "rot_x": "X",
+    "rot_y": "Y",
+    "rot_z": "Z",
+    "zoom": "缩放",
+    "veh_col_1": "载具颜色 1",
+    "veh_col_2": "载具颜色 2",
+    "btn_1": "选择",
+    "btn_2": "关闭",
+    "error": "输入的值不正确。",
+    "info_1": "值已更新。"
+  },
+  "preview_models_manual": {
+    "title": "手动编辑",
+    "content_1": "{FFFFFF}请输入要使用的值。",
+    "content_2": "{badc58}当前值：{FFFFFF}%s",
+    "content_3": "{badc58}当前值：{FFFFFF}%s",
+    "btn_3": "更新",
+    "btn_4": "关闭"
+  },
+  "undo_redo": {
+    "title": "撤销和重做",
+    "content_1": "选择要查看的索引。索引范围为 {ff7979}1 {ffffff}到 {ff7979}#%d",
+    "btn_1": "查看",
+    "btn_2": "关闭",
+    "error": "输入的值不正确。"
+  },
+  "undo_redo_confirm": {
+    "title": "确认更改",
+    "content_1": "{FFFFFF}确认要保存更改吗？",
+    "btn_1": "确认",
+    "btn_2": "取消",
+    "info_1": "更改已保存。",
+    "info_2": "未做任何更改。"
+  },
+  "deleted": {
+    "title": "已删除的文本绘图 [%s / %s]",
+    "header_1": "名称",
+    "header_2": "类型",
+    "header_3": "全局/玩家",
+    "header_4": "删除时间",
+    "content_1": "跳转到页面",
+    "content_2": "清除所有数据",
+    "content_3": "恢复所有数据",
+    "btn1": "恢复",
+    "btn2": "返回",
+    "error": "暂无可恢复的文本绘图。",
+    "info": "文本绘图已恢复。新索引号: %s",
+    "restored": "TextDraw restored. New index: {0}",
+    "restored_all": "All data restored. Total: {0}"
+  },
+  "deleted_clear": {
+    "title": "清除所有数据",
+    "content_1": "{ff7f50}警告：{FFFFFF}此操作将删除所有已删除的文本绘图数据。",
+    "content_2": "{FFFFFF}确认操作？",
+    "btn1": "确认",
+    "btn2": "取消",
+    "info": "所有数据已清除。"
+  },
+  "deleted_restore": {
+    "title": "恢复所有数据",
+    "content_1": "{FFFFFF}确认恢复所有数据？",
+    "btn1": "确认",
+    "btn2": "取消",
+    "info": "所有数据已恢复。总计: %s"
+  },
+  "grouping": {
+    "error": "请先创建文本绘图。",
+    "title": "分组管理",
+    "content_1": "{badc58}分组：",
+    "content_2": "选择要分组的文本绘图",
+    "content_3": "全部分组",
+    "content_4": "重置全部分组",
+    "content_5": "{badc58}快速分组：",
+    "content_6": "普通文本绘图",
+    "content_7": "Sprite 精灵图",
+    "content_8": "预览模型",
+    "content_9": "{badc58}复制：",
+    "content_10": "复制分组的文本绘图",
+    "content_11": "复制并选择",
+    "content_12": "{badc58}删除：",
+    "content_13": "删除分组的文本绘图",
+    "content_14": "{badc58}位置：",
+    "content_15": "移动分组文本绘图",
+    "content_16": "{badc58}尺寸：",
+    "content_17": "文本尺寸（普通文本绘图）",
+    "content_18": "文本尺寸（Sprite）",
+    "content_19": "文本尺寸（预览模型）",
+    "content_20": "文本尺寸（Sprite+预览模型）",
+    "content_21": "文本尺寸（全部）",
+    "content_22": "字母尺寸（普通文本绘图）",
+    "content_23": "{badc58}文本：",
+    "content_24": "修改分组文本",
+    "content_25": "{badc58}字体：",
+    "content_26": "字体 0",
+    "content_27": "字体 1",
+    "content_28": "字体 2",
+    "content_29": "字体 3",
+    "content_30": "{badc58}对齐：",
+    "content_31": "左对齐",
+    "content_32": "居中",
+    "content_33": "右对齐",
+    "content_34": "{badc58}比例：",
+    "content_35": "开启",
+    "content_36": "关闭",
+    "content_37": "{badc58}轮廓与阴影：",
+    "content_38": "轮廓",
+    "content_39": "阴影",
+    "content_40": "{badc58}颜色：",
+    "content_41": "十六进制",
+    "content_42": "RGB",
+    "content_43": "RGBA",
+    "content_44": "预设颜色",
+    "content_45": "{badc58}边框：",
+    "content_46": "开启",
+    "content_47": "关闭",
+    "content_48": "{badc58}可点击：",
+    "content_49": "开启",
+    "content_50": "关闭",
+    "content_51": "{badc58}全局/玩家：",
+    "content_52": "设为全局",
+    "content_53": "设为玩家",
+    "btn1": "选择",
+    "btn2": "返回"
+  },
+  "color_mode": {
+    "1": "文本颜色",
+    "2": "背景/边框颜色",
+    "3": "边框颜色"
+  },
+  "group_items": {
+    "title": "分组 [%s / %s]",
+    "header_1": "ID",
+    "header_2": "变量名",
+    "header_3": "内容",
+    "header_4": "已分组？",
+    "header_4_n": "否",
+    "header_4_y": "是",
+    "content_1": "跳转到页面",
+    "content_2": "分组本页",
+    "content_3": "取消本页分组",
+    "btn1": "选择",
+    "btn2": "返回"
+  },
+  "group_text": {
+    "title": "修改文本",
+    "content": "{FFFFFF}输入分组项目的新文本。",
+    "btn1": "修改",
+    "btn2": "返回",
+    "error": "文本不能为空。"
+  },
+  "td_type": {
+    "global": "全局",
+    "player": "玩家"
+  },
+  "group_outline": {
+    "title": "轮廓",
+    "content": "{FFFFFF}请输入轮廓值。",
+    "btn1": "修改",
+    "btn2": "返回",
+    "info": "分组文本绘图的轮廓值已设置为 %s。",
+    "error": "输入的值不正确。"
+  },
+  "group_shadow": {
+    "title": "阴影",
+    "content": "{FFFFFF}请输入阴影值。",
+    "btn1": "修改",
+    "btn2": "返回",
+    "info": "分组文本绘图的阴影值已设置为 %s。",
+    "error": "输入的值不正确。"
+  },
+  "group_offset": {
+    "title": "偏移值",
+    "content_1": "{eccc68}X偏移：{FFFFFF}%s    {eccc68}Y偏移：{FFFFFF}%s",
+    "content_2": "{70a1ff}仅 X 偏移：{ffffff}值 0",
+    "content_3": "{70a1ff}仅 Y 偏移：{ffffff}0 值",
+    "btn_1": "更新",
+    "btn_2": "关闭",
+    "error_1": "输入的值不正确。",
+    "info_1": "信息"
+  },
+  "interactive": {
+    "start": "Arrow keys: {0}. ENTER: save. N: manual.",
+    "start_pmodel": "Arrow keys: change value. ENTER: save. N: manual.",
+    "start_undo": "LEFT/RIGHT: browse. ENTER: confirm. N: jump.",
+    "start_sel": "LEFT/RIGHT: switch. ENTER: confirm.",
+    "start_swap": "LEFT/RIGHT: swap. ENTER: confirm. N: manual.",
+    "start_gpos": "Arrow keys: move grouped. ENTER: save.",
+    "start_gts": "Arrow keys: resize. ENTER: save.",
+    "saved": "Changes saved.",
+    "saved_undo": "Saved.",
+    "cancelled": "Cancelled.",
+    "selected": "Selected: {0}",
+    "index": "Index: {0}",
+    "no_undo": "No undo data.",
+    "no_grouped": "No grouped items.",
+    "group_saved": "Group changes saved.",
+    "confirm_title": "Confirm",
+    "confirm_info": "Apply changes?",
+    "confirm_yes": "Yes",
+    "confirm_no": "No",
+    "btn_set": "Set",
+    "btn_back": "Back",
+    "outline_title": "Outline",
+    "outline_value": "Value: {0}",
+    "shadow_title": "Shadow",
+    "shadow_value": "Value: {0}",
+    "undo_index_title": "Undo Index",
+    "undo_index_info": "Index (1-{0}):",
+    "undo_index_go": "Go",
+    "pmodel_title": "Preview Model"
+  },
+  "veh": {
+    "usage": "/veh <model id>"
+  },
+  "spawn": {
+    "lang_title": "Language Selection",
+    "lang_header": "{badc58}Language\t{badc58}File",
+    "lang_btn": "Select"
+  },
+  "sprite": {
+    "title": "Sprite Browser",
+    "title_lib": "Sprite Browser :: {0}"
+  }
+}
