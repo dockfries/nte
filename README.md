@@ -5,11 +5,24 @@ This repository ports the [nexquery/samp-textdraw-editor](https://github.com/nex
 ## Get Started
 
 ```sh
+# if you are using the x86 version of samp-node
+export npm_config_arch=ia32
+export npm_config_target_arch=ia32
+
+# powershell env
+# $env:npm_config_arch="ia32";
+# $env:npm_config_target_arch="ia32";
+
+# cmd env
+# set npm_config_arch=ia32
+# set npm_config_target_arch=ia32
+
 pnpm dlx @infernus/create-app@latest install
 
 pnpm install --dev # ensure node-gyp install first
 
 pnpm install
+
 pnpm build
 pnpm serve
 ```
@@ -30,10 +43,10 @@ This editor uses `mdl-2000` sprite textures for its HUD toolbar and sprite brows
 
 ## 📦 Database Compatibility
 
-| Format | Compatible? | Notes |
-|--------|-------------|-------|
-| `.db` (SQLite) | ❌ **Not compatible** | The PAWN version used SQLite via `db_open` / `db_query`. This TypeScript port also uses SQLite (`better-sqlite3`), but the schema and data layout differ. Old `.db` files **cannot** be opened directly. |
-| `.txt` (Import / Export) | ✅ **Fully compatible** | Both versions use the same PAWN `TextDrawCreate(...)` / `CreatePlayerTextDraw(...)` text format for import and export. |
+| Format                   | Compatible?             | Notes                                                                                                                                                                                                    |
+| ------------------------ | ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `.db` (SQLite)           | ❌ **Not compatible**   | The PAWN version used SQLite via `db_open` / `db_query`. This TypeScript port also uses SQLite (`better-sqlite3`), but the schema and data layout differ. Old `.db` files **cannot** be opened directly. |
+| `.txt` (Import / Export) | ✅ **Fully compatible** | Both versions use the same PAWN `TextDrawCreate(...)` / `CreatePlayerTextDraw(...)` text format for import and export.                                                                                   |
 
 ### Migration from the PAWN version
 
